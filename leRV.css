@@ -1,0 +1,251 @@
+        
+
+header{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+
+.tete{
+    float: right;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+
+ul{ 
+   display: flex;
+   list-style: none;
+}
+
+ul li a{
+    display: flex;
+    color: purple;
+    padding: 10px 20px;
+    margin: 10px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    background-color: purple;
+    color: white;
+}
+
+.logo a{
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px transparent purple;
+    color: purple;
+    padding: 10px 20px;
+    top: 1px;
+    position: absolute;
+    left: 30px;
+    
+}
+
+.logo a span{
+    font-weight: 1000;
+    color:brown;
+    font-size: xx-large;
+}
+
+.heros{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../Pictures/YASSAG-1-1080x720 yassa.jpg")  ;
+    height: 50px;
+    position: absolute;
+    background-size: cover;
+    top: 20%;
+    left: 30%;
+    padding: 10% 15%;    
+     
+}
+    
+
+.heros h1{
+color: white;
+text-transform: uppercase;
+
+}
+
+.heros a{
+    color: white;
+    text-decoration: none;
+    border: 1px transparent white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+
+.bouton{
+    transition: 0.6s ease;
+    margin-left: 60px;
+}
+
+
+.bouton:hover{
+    background-color: purple;
+    color: white;
+
+}
+
+.menu{
+    display: grid;
+    margin: 42% 0%;
+    justify-items: start;
+    border: 1px transparent purple;
+    position: absolute;
+    padding: 10px 450px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    grid-template-columns: 400px;
+}
+
+#menu h2{
+   position: absolute;
+   margin: 38% 0% 0% 0%; 
+   
+   color: purple;
+   font-size:x-large;
+}
+
+#menu h3{
+    font-size: small;
+    font-weight: 900;
+}
+
+.menu img{
+    height: 100px;
+    
+}
+
+.dien{
+    display: grid;
+    position: absolute;
+    margin-left: 10%;
+    
+}
+
+.guinar{
+    display: grid;
+    position: absolute;
+    margin-left: 40%;
+}
+
+.pailla{
+    display: grid;
+    position: absolute;
+    margin-left: 70%;
+
+}
+
+.menu p span{
+    border: 1px solid purple;
+    color: white;
+    background-color: purple;
+}
+
+.container{
+    display: grid;
+    position: absolute;
+    margin: 60% 0%;
+    text-transform:uppercase;
+    justify-content: end;
+}
+
+section h2{
+    position: absolute;
+    margin: 55% 0% 0% 0%;
+    text-transform: uppercase;
+    color: purple;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+
+#contact h2{
+    position: absolute;
+    margin: 75% 0% 0% 0%;
+    font-size: x-large;
+    color: purple;
+
+}
+.form{
+    position: absolute;
+    margin: 80% 0%;
+}
+
+footer{
+    position: absolute;
+    margin: 105% 0% ;
+    padding: 10% 0% 0% 52%;
+    
+}
+
+.socialicons{
+    padding: 20px 20px;
+    border: 1px transparent;
+}
+
+.socialicons a{
+    padding: 10px 20px;
+    border: 1px transparent;
+    border-radius: 50px;
+
+}
+
+.socialicons a:hover{
+    color: white;
+    background-color: purple;
+    transition: 0.5s;
+}
+
+.footernav{
+    margin: 20px 0 ;
+    
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.footernav ul li a:hover{
+    opacity: 1;
+    color: white;
+    background-color: purple;
+}
+    
+.footerbottom{
+    padding: 20px;
+    text-align: center;
+}
+
+.footerbottom p{
+    color: white;
+    margin-left: -100%;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
